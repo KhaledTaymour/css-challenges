@@ -1,0 +1,22 @@
+.expanding-search-bar {
+  padding: 4px;
+
+  .search-bar {
+    /* margin: 8px; */
+    width: 33%;
+    min-width: 320px;
+    border: 1px solid var(--search-border);
+    border-radius: 4px;
+    transition: all 0.5s;
+  }
+  .search-bar:focus {
+    width: 100%;
+    border-color: var(--search-focus-border);
+  }
+  .search-bar::placeholder {
+    font-weight: 200;
+  }
+  .search-bar:focus::placeholder {
+    color: transparent;
+  }
+}

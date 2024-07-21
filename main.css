@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.challenge {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 4px;
+  margin-block: 8px;
+
+  .hint {
+    background-color: lemonchiffon;
+  }
+}

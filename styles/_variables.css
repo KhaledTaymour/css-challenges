@@ -1,0 +1,22 @@
+:root {
+  /*  */
+  --spoiler-color: #000;
+  /*  */
+  --font-family: "Karla", sans-serif;
+  --btn-bg: #000;
+  --btn-color: #cbcbcb;
+  --btn-color-hover: #fff;
+  --grad-color1: #eeaf61;
+  --grad-color2: #fb9062;
+  --grad-color3: #ee5d6c;
+  --grad-color4: #ce4993;
+  --grad-color5: #6a0d83;
+  /*  */
+  --search-border: #bbb;
+  --search-focus-border: #3a71ca;
+  /*  */
+  --font-main: "Noto Sans", sans-serif;
+  --bg-card: #1e1f26;
+  --bg-stats: #131417;
+  --username: #b7bbc8;
+}

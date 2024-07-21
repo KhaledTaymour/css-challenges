@@ -1,0 +1,38 @@
+.colorful-button {
+  font-family: var(--font-family);
+
+  .button-border {
+    width: max-content;
+    background: linear-gradient(
+      115deg,
+      var(--grad-color1),
+      var(--grad-color2),
+      var(--grad-color3),
+      var(--grad-color4),
+      var(--grad-color5)
+    );
+    padding: 2px;
+  }
+
+  .button {
+    border: none;
+    padding: 1em 1.5em;
+    letter-spacing: 0.1em;
+    background-color: var(--btn-bg);
+    color: var(--btn-color);
+  }
+
+  .button-border:hover {
+    background: linear-gradient(
+      230deg,
+      var(--grad-color1),
+      var(--grad-color2),
+      var(--grad-color3),
+      var(--grad-color4),
+      var(--grad-color5)
+    );
+    .button {
+      color: var(--btn-color-hover);
+    }
+  }
+}

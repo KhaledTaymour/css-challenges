@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Challenges</title>
+
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./styles/_variables.css" />
+    <link rel="stylesheet" href="./styles/challenges/01-spoiler-revealer.css" />
+    <link rel="stylesheet" href="./styles/challenges/02-colorful-button.css" />
+    <link
+      rel="stylesheet"
+      href="./styles/challenges/03-expanding-search-bar.css"
+    />
+    <link rel="stylesheet" href="./styles/challenges/04-codepen-tile.css" />
+  </head>
+  <body>
+    <!-- Spoiler Revealer -->
+    <section class="challenge spoiler-revealer">
+      <h2>Spoiler Revealer</h2>
+      <p class="hint">This text will only be revealed when you hover on it</p>
+      <div class="post">
+        <p>
+          In the 1968 film Planet of the Apes, they find
+          <span class="spoiler"
+            >the ruins of the Statue of Liberty. The Plant of the Apes is
+            Earth!</span
+          >
+        </p>
+      </div>
+    </section>
+
+    <!-- Colorful Button -->
+    <section class="challenge colorful-button">
+      <h2>Colorful Button</h2>
+      <p class="hint">This Colorful Button</p>
+      <div class="button-border">
+        <button type="button" class="button">Start Coding!</button>
+      </div>
+    </section>
+
+    <!-- Expanding Search Bar -->
+    <section class="challenge expanding-search-bar">
+      <h2>Expanding Search Bar</h2>
+      <p class="hint">A Search Bar expands when focused</p>
+      <input
+        type="search"
+        class="search-bar"
+        id="search-field"
+        placeholder="Search..."
+      />
+    </section>
+
+    <!-- Codepen Tile -->
+    <section class="challenge codepen-tile">
+      <h2>Codepen Tile</h2>
+      <p class="hint">
+        Codepen card with hover effect showing likes & comments counts
+      </p>
+
+      <div class="card">
+        <div class="card-thumbnail">
+          <img alt="" src="images/jr-korpa-unsplash.jpg" />
+        </div>
+        <div class="card-body">
+          <div class="card-avatar">
+            <img alt="" src="images/daniel-park-unsplash.jpg" />
+          </div>
+          <div class="card-details">
+            <h3>Abstract Gradient Project</h3>
+            <p>Scrimsbee McScrimslee</p>
+          </div>
+        </div>
+        <ul class="card-stats">
+          <li>🤍 8</li>
+          <li>💬 32</li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
