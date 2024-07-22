@@ -1,0 +1,171 @@
+.flag-france {
+  .container {
+    height: var(--flag-height);
+    width: calc(var(--flag-height) * 3 / 2);
+    margin: 8px;
+    border: 0.5px solid grey;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .blue {
+      background-color: var(--france-blue);
+    }
+    .white {
+      background-color: var(--france-white);
+    }
+    .red {
+      background-color: var(--france-red);
+    }
+  }
+}
+
+.flag-germany {
+  .container {
+    height: var(--flag-height);
+    width: calc(var(--flag-height) * 5 / 3);
+    margin: 8px;
+    border: 0.5px solid grey;
+    display: grid;
+
+    .black {
+      background-color: var(--germany-black);
+    }
+    .red {
+      background-color: var(--germany-red);
+    }
+    .yellow {
+      background-color: var(--germany-yellow);
+    }
+  }
+}
+
+.flag-madagascar {
+  .container {
+    height: var(--flag-height);
+    width: calc(var(--flag-height) * 3 / 2);
+    margin: 8px;
+    border: 0.5px solid grey;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    .white {
+      background-color: var(--madagascar-white);
+    }
+    .red {
+      background-color: var(--madagascar-red);
+      height: 50%;
+    }
+    .green {
+      background-color: var(--madagascar-green);
+      height: 50%;
+    }
+  }
+}
+
+.flag-switzerland {
+  .container {
+    height: var(--flag-height);
+    width: var(--flag-height);
+    margin: 8px;
+    border: 0.5px solid grey;
+    background-color: var(--switzerland-red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .cross {
+      background-color: var(--switzerland-white);
+    }
+
+    .cross-hor {
+      width: calc(100% * 5 / 8);
+      height: calc(100% * 3 / 16);
+    }
+    .cross-ver {
+      width: calc(100% * 3 / 16);
+      height: calc(100% * 5 / 8);
+      position: absolute;
+    }
+  }
+}
+
+.flag-japan {
+  .container {
+    height: var(--flag-height);
+    width: calc(var(--flag-height) * 3 / 2);
+    margin: 8px;
+    border: 0.5px solid grey;
+    background-color: var(--japan-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .circle {
+      background-color: var(--japan-red);
+      height: calc(var(--flag-height) * 3 / 5);
+      width: calc(var(--flag-height) * 3 / 5);
+      border-radius: 50%;
+    }
+  }
+}
+
+.flag-sweden {
+  .container {
+    height: var(--flag-height);
+    width: calc(var(--flag-height) * 8 / 5);
+    margin: 8px;
+    border: 0.5px solid grey;
+    background-color: var(--sweden-blue);
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .stripe {
+      background-color: var(--sweden-yellow);
+    }
+
+    .stripe-yellow-ver {
+      width: calc(var(--flag-height) * 1 / 5);
+      height: 100%;
+      position: absolute;
+      left: calc(var(--flag-height) * 5 / 16);
+    }
+    .stripe-yellow-hor {
+      width: 100%;
+      height: calc(var(--flag-height) * 1 / 5);
+    }
+  }
+}
+
+.flag-niger {
+  .container {
+    height: var(--flag-height);
+    width: calc(var(--flag-height) * 7 / 6);
+    margin: 8px;
+    border: 0.5px solid grey;
+    display: grid;
+
+    .orange {
+      background: var(--niger-orange);
+    }
+    .white {
+      background: var(--niger-white);
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .circle {
+        width: calc(var(--flag-height) * 1 / 3 * 0.85);
+        height: calc(var(--flag-height) * 1 / 3 * 0.85);
+        background-color: var(--niger-orange);
+        position: absolute;
+        border-radius: 50%;
+      }
+    }
+    .green {
+      background: var(--niger-green);
+    }
+  }
+}

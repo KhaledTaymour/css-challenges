@@ -29,4 +29,24 @@
   --yellow: #fdfe29;
   /*  */
   --bg-word: #5134ff;
+  /*  */
+  --flag-height: 150px;
+  --france-red: #ed2938;
+  --france-white: #fff;
+  --france-blue: #002495;
+  --germany-black: #000000;
+  --germany-red: #de0002;
+  --germany-yellow: #ffce00;
+  --madagascar-white: #ffffff;
+  --madagascar-red: #fc3e32;
+  --madagascar-green: #007e39;
+  --switzerland-white: #fff;
+  --switzerland-red: #ff0002;
+  --japan-white: #ffffff;
+  --japan-red: #bc022c;
+  --sweden-blue: #0269a6;
+  --sweden-yellow: #fecc00;
+  --niger-orange: #e15307;
+  --niger-white: #ffffff;
+  --niger-green: #10af2a;
 }
