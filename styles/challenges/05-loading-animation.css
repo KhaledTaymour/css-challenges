@@ -1,0 +1,28 @@
+.loading-animation {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 8px;
+    height: 3em;
+
+    .circle {
+      width: 1.5em;
+      height: 1.5em;
+      border-radius: 50%;
+      background-color: black;
+      animation: 1s infinite alternate pulse;
+    }
+  }
+}
+@keyframes pulse {
+  from {
+    background-color: var(--color-dark);
+  }
+  to {
+    background-color: var(--color-light);
+    width: 1.8em;
+    height: 1.8em;
+  }
+}

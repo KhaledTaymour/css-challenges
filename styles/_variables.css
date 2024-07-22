@@ -19,4 +19,14 @@
   --bg-card: #1e1f26;
   --bg-stats: #131417;
   --username: #b7bbc8;
+  /*  */
+  --color-light: lightgray;
+  --color-dark: darkgray;
+  /*  */
+  --black: #282828;
+  --blue: #2892f9;
+  --red: #fb2f27;
+  --yellow: #fdfe29;
+  /*  */
+  --bg-word: #5134ff;
 }

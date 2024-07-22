@@ -1,0 +1,36 @@
+.archery-target {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+
+    .ring {
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .ring-1 {
+      width: 8em;
+      height: 8em;
+      background-color: var(--black);
+    }
+    .ring-2 {
+      width: 6em;
+      height: 6em;
+      background-color: var(--blue);
+    }
+    .ring-3 {
+      width: 4em;
+      height: 4em;
+      background-color: var(--red);
+    }
+    .bullseye {
+      width: 2em;
+      height: 2em;
+      background-color: var(--yellow);
+    }
+  }
+}
