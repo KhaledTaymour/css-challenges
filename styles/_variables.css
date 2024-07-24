@@ -49,4 +49,24 @@
   --niger-orange: #e15307;
   --niger-white: #ffffff;
   --niger-green: #10af2a;
+  /*  */
+  --github-font-main: "Noto Sans", sans-serif;
+  --github-main-bg: #000;
+  --github-profile-bg: #0d1117;
+  --github-profile-color: #c9d1d9;
+  --github-profile-img-border: #2e343b;
+  --github-username-font-color: #8b949e;
+  --github-username-font-weight: 400;
+  --github-btn-bg: #21262d;
+  --github-btn-color: #c9d1d9;
+  --github-btn-bg-hover: #30363d;
+  --github-btn-border: #373b43;
+  --github-btn-border-hover: #8c949e;
+  /*  */
+  --toggle-switch-bg: #232428;
+  --toggle-border: #232428;
+  --toggle-bg: #fff;
+  --toggle-width: 100px;
+  --toggle-height: 40px;
+  --toggle-border-width: 3px;
 }
