@@ -1,0 +1,28 @@
+.playing-cards-ace-of-spades {
+  .card {
+    margin: 8px;
+    height: var(--card-height);
+    width: calc(2 / 3 * var(--card-height));
+    border: 1px solid black;
+    border-radius: 0.25em;
+    padding: 0.5em;
+    display: grid;
+
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 5em;
+    }
+
+    .bottom {
+      transform: rotate(180deg);
+    }
+
+    .top > div:nth-child(2),
+    .bottom > div:nth-child(2) {
+      color: red;
+      padding-inline-start: 0.1em;
+    }
+  }
+}

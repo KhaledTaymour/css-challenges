@@ -1,5 +1,6 @@
 .toggle-switch {
   .toggle-wrap {
+    margin: 8px;
     display: flex;
 
     label {
