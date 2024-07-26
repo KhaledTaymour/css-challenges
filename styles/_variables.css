@@ -71,4 +71,14 @@
   --toggle-border-width: 3px;
   /*  */
   --card-height: 200px;
+  /*  */
+  --animated-progress-bar-stage-1: 25%;
+  --animated-progress-bar-stage-2: 50%;
+  --animated-progress-bar-stage-3: 75%;
+  --animated-progress-bar-stage-4: 100%;
+  --animated-progress-bar-progbar-bg: lightgray;
+  --animated-progress-bar-stage-1-bg: red;
+  --animated-progress-bar-stage-2-bg: orangered;
+  --animated-progress-bar-stage-3-bg: greenyellow;
+  --animated-progress-bar-stage-4-bg: green;
 }
