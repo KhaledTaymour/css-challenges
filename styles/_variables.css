@@ -81,4 +81,7 @@
   --animated-progress-bar-stage-2-bg: orangered;
   --animated-progress-bar-stage-3-bg: greenyellow;
   --animated-progress-bar-stage-4-bg: green;
+  /*  */
+  --flip-card-blue: #060ce9;
+  --flip-card-font-color: #fff;
 }
