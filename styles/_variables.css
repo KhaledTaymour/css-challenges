@@ -84,4 +84,7 @@
   /*  */
   --flip-card-blue: #060ce9;
   --flip-card-font-color: #fff;
+  /*  */
+  --circular-loading-main: #cdcdcd;
+  --circular-loading-active: purple;
 }
