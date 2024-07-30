@@ -1,0 +1,70 @@
+.instagram-stories {
+  .stories-menu {
+    margin: 8px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    font-family: var(--instagram-font);
+    color: var(--instagram-font-color);
+    background-color: var(--instagram-bg-main);
+    list-style: none;
+
+    .story {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      cursor: pointer;
+    }
+
+    .img-wrapper {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      padding: 3px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: 3px solid var(--instagram-bg-main);
+        border-radius: 50%;
+      }
+    }
+
+    .new .img-wrapper {
+      background: linear-gradient(
+        to top right,
+        var(--instagram-grad1),
+        var(--instagram-grad2),
+        var(--instagram-grad3),
+        var(--instagram-grad4),
+        var(--instagram-grad5)
+      );
+    }
+
+    .viewed .img-wrapper {
+      background: var(--instagram-viewed);
+    }
+
+    .live .img-wrapper {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    .live .img-wrapper::after {
+      position: absolute;
+      top: calc(100% - 12px);
+      content: "LIVE";
+      background-color: var(--instagram-bg-live);
+      border: 3px solid var(--instagram-bg-main);
+      border-radius: 4px;
+      padding: 0.01em 0.25em;
+      font-weight: 600;
+    }
+  }
+}

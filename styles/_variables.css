@@ -87,4 +87,15 @@
   /*  */
   --circular-loading-main: #cdcdcd;
   --circular-loading-active: purple;
+  /*  */
+  --instagram-font: "Karla", sans-serif;
+  --instagram-font-color: #fff;
+  --instagram-grad1: #feda75;
+  --instagram-grad2: #fa7e1e;
+  --instagram-grad3: #d62976;
+  --instagram-grad4: #962fbf;
+  --instagram-grad5: #4f5bd5;
+  --instagram-viewed: gray;
+  --instagram-bg-main: #000;
+  --instagram-bg-live: red;
 }
