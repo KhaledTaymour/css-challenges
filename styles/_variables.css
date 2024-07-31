@@ -98,4 +98,10 @@
   --instagram-viewed: gray;
   --instagram-bg-main: #000;
   --instagram-bg-live: red;
+  /*  */
+  --github-graph-bg: #000;
+  --github-default-square-bg: #161b22;
+  --github-level3: darkblue;
+  --github-level5: blue;
+  --github-level10: lightskyblue;
 }

@@ -56,6 +56,10 @@
       href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="./styles/challenges/17-github-contribution-graph.css"
+    />
   </head>
   <body>
     <!-- Spoiler Revealer -->
@@ -413,5 +417,33 @@
         </li>
       </ul>
     </section>
+
+    <!-- Github Contribution Graph -->
+    <section class="challenge github-contribution-graph">
+      <h2>Github Contribution Graph</h2>
+      <p class="hint">
+        Colored 1-Year Github Random Contribution Graph, with 4 levels of
+        contributions based on the count; 0 → none, 3 → low, 5 → medium, and 10
+        → high
+      </p>
+
+      <div class="graph">
+        <!-- Generated HTML Example 
+            <ul class="week-1">
+                <li class="square" data-value="10"></li>
+                <li class="square" data-value="5"></li>
+                <li class="square" data-value="0"></li>
+                ...
+            </ul>
+            <ul class="week-2">
+                <li class="square" data-value="0"></li>
+                <li class="square" data-value="3"></li>
+                <li class="square" data-value="0"></li>
+                ...
+            </ul> 
+        -->
+      </div>
+    </section>
+    <script type="text/javascript" src="githubContributionGraph.js"></script>
   </body>
 </html>
