@@ -12,6 +12,7 @@
   .search-bar:focus {
     width: 100%;
     border-color: var(--search-focus-border);
+    outline: none;
   }
   .search-bar::placeholder {
     font-weight: 200;

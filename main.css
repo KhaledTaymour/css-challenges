@@ -9,13 +9,46 @@ body {
   height: 100%;
 }
 
+body {
+  display: grid;
+  column-gap: 16px;
+  margin-inline: 16px;
+  grid-template-columns: 1fr;
+}
+
 .challenge {
   border: 1px solid black;
   border-radius: 4px;
   padding: 4px;
   margin-block: 8px;
 
+  display: flex;
+  flex-direction: column;
+
   .hint {
     background-color: lemonchiffon;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.codepen-tile {
+  height: 420px;
+  .container {
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .full-row {
+    grid-column: 1 / 3;
   }
 }

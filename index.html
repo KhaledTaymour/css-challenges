@@ -66,14 +66,16 @@
     <section class="challenge spoiler-revealer">
       <h2>Spoiler Revealer</h2>
       <p class="hint">This text will only be revealed when you hover on it</p>
-      <div class="post">
-        <p>
-          In the 1968 film Planet of the Apes, they find
-          <span class="spoiler"
-            >the ruins of the Statue of Liberty. The Plant of the Apes is
-            Earth!</span
-          >
-        </p>
+      <div class="container">
+        <div class="post">
+          <p>
+            In the 1968 film Planet of the Apes, they find
+            <span class="spoiler"
+              >the ruins of the Statue of Liberty. The Plant of the Apes is
+              Earth!</span
+            >
+          </p>
+        </div>
       </div>
     </section>
 
@@ -81,8 +83,10 @@
     <section class="challenge colorful-button">
       <h2>Colorful Button</h2>
       <p class="hint">This Colorful Button</p>
-      <div class="button-border">
-        <button type="button" class="button">Start Coding!</button>
+      <div class="container">
+        <div class="button-border">
+          <button type="button" class="button">Start Coding!</button>
+        </div>
       </div>
     </section>
 
@@ -90,38 +94,56 @@
     <section class="challenge expanding-search-bar">
       <h2>Expanding Search Bar</h2>
       <p class="hint">A Search Bar expands when focused</p>
-      <input
-        type="search"
-        class="search-bar"
-        id="search-field"
-        placeholder="Search..."
-      />
+      <div class="container">
+        <input
+          type="search"
+          class="search-bar"
+          id="search-field"
+          placeholder="Search..."
+        />
+      </div>
+    </section>
+
+    <!-- Toggle Switch -->
+    <section class="challenge toggle-switch">
+      <h2>Toggle Switch</h2>
+      <p class="hint">A switch button</p>
+      <div class="container">
+        <div class="toggle-wrap">
+          <label for="toggle">
+            <input type="checkbox" id="toggle" class="toggle-input" />
+            <div class="toggle-switch"></div>
+          </label>
+        </div>
+      </div>
     </section>
 
     <!-- Codepen Tile -->
-    <section class="challenge codepen-tile">
+    <section class="challenge full-row codepen-tile">
       <h2>Codepen Tile</h2>
       <p class="hint">
         Codepen card with hover effect showing likes & comments counts
       </p>
 
-      <div class="card">
-        <div class="card-thumbnail">
-          <img alt="" src="images/jr-korpa-unsplash.jpg" />
-        </div>
-        <div class="card-body">
-          <div class="card-avatar">
-            <img alt="" src="images/daniel-park-unsplash.jpg" />
+      <div class="container">
+        <div class="card">
+          <div class="card-thumbnail">
+            <img alt="" src="images/jr-korpa-unsplash.jpg" />
           </div>
-          <div class="card-details">
-            <h3>Abstract Gradient Project</h3>
-            <p>Scrimsbee McScrimslee</p>
+          <div class="card-body">
+            <div class="card-avatar">
+              <img alt="" src="images/daniel-park-unsplash.jpg" />
+            </div>
+            <div class="card-details">
+              <h3>Abstract Gradient Project</h3>
+              <p>Scrimsbee McScrimslee</p>
+            </div>
           </div>
+          <ul class="card-stats">
+            <li>🤍 8</li>
+            <li>💬 32</li>
+          </ul>
         </div>
-        <ul class="card-stats">
-          <li>🤍 8</li>
-          <li>💬 32</li>
-        </ul>
       </div>
     </section>
 
@@ -146,6 +168,27 @@
         <div class="square"></div>
         <div class="square"></div>
         <div class="square"></div>
+      </div>
+    </section>
+
+    <!-- Animated Progress Bar -->
+    <section class="challenge animated-progress-bar">
+      <h2>Animated Progress Bar</h2>
+      <p class="hint">A Progress Bar with 4 stages</p>
+
+      <div class="container">
+        <div class="progress-bar">
+          <div class="prog-status stage-4"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Circular Loading Animation -->
+    <section class="challenge circular-loading-animation">
+      <h2>Circular Loading Animation</h2>
+      <p class="hint">circular loading animation</p>
+      <div class="container">
+        <div class="loader"></div>
       </div>
     </section>
 
@@ -181,9 +224,11 @@
       <p class="hint">Aspect Ratio 2:3</p>
 
       <div class="container">
-        <div class="blue stripe"></div>
-        <div class="white stripe"></div>
-        <div class="red stripe"></div>
+        <div class="flag-container">
+          <div class="blue stripe"></div>
+          <div class="white stripe"></div>
+          <div class="red stripe"></div>
+        </div>
       </div>
     </section>
 
@@ -193,9 +238,11 @@
       <p class="hint">Aspect Ratio 3:5</p>
 
       <div class="container">
-        <div class="black stripe"></div>
-        <div class="red stripe"></div>
-        <div class="yellow stripe"></div>
+        <div class="flag-container">
+          <div class="black stripe"></div>
+          <div class="red stripe"></div>
+          <div class="yellow stripe"></div>
+        </div>
       </div>
     </section>
 
@@ -205,10 +252,12 @@
       <p class="hint">Aspect Ratio 2:3</p>
 
       <div class="container">
-        <div class="white stripe"></div>
-        <div>
-          <div class="red stripe"></div>
-          <div class="green stripe"></div>
+        <div class="flag-container">
+          <div class="white stripe"></div>
+          <div>
+            <div class="red stripe"></div>
+            <div class="green stripe"></div>
+          </div>
         </div>
       </div>
     </section>
@@ -229,8 +278,10 @@
       </p>
 
       <div class="container">
-        <div class="cross cross-hor"></div>
-        <div class="cross cross-ver"></div>
+        <div class="flag-container">
+          <div class="cross cross-hor"></div>
+          <div class="cross cross-ver"></div>
+        </div>
       </div>
     </section>
 
@@ -240,7 +291,9 @@
       <p class="hint">Aspect Ratio 2:3. Circle is 3/5 the size</p>
 
       <div class="container">
-        <div class="circle"></div>
+        <div class="flag-container">
+          <div class="circle"></div>
+        </div>
       </div>
     </section>
 
@@ -252,8 +305,10 @@
       </p>
 
       <div class="container">
-        <div class="stripe stripe-yellow-ver"></div>
-        <div class="stripe stripe-yellow-hor"></div>
+        <div class="flag-container">
+          <div class="stripe stripe-yellow-ver"></div>
+          <div class="stripe stripe-yellow-hor"></div>
+        </div>
       </div>
     </section>
 
@@ -263,42 +318,33 @@
       <p class="hint">Aspect Ratio 6:7, Circle is 85% of the stripe's height</p>
 
       <div class="container">
-        <div class="stripe orange"></div>
-        <div class="stripe white">
-          <div class="circle"></div>
+        <div class="flag-container">
+          <div class="stripe orange"></div>
+          <div class="stripe white">
+            <div class="circle"></div>
+          </div>
+          <div class="stripe green"></div>
         </div>
-        <div class="stripe green"></div>
       </div>
     </section>
 
     <!-- Github Profile Layout -->
-    <section class="challenge github-profile-layout">
+    <section class="challenge full-row github-profile-layout">
       <h2>Github Profile Layout</h2>
       <p class="hint">A Github profile layut</p>
 
-      <div class="profile-container">
-        <div class="profile-content">
-          <img alt="" src="./images/florian-olivo-unsplash.jpg" />
-          <div class="profile-details">
-            <h2>Scrimton Scrimsby</h2>
-            <h3>scrimsallday3000</h3>
-            <p>I'm the world's most prolific Fortran dev.</p>
-            <button type="button">Edit Profile</button>
+      <div class="container">
+        <div class="profile-container">
+          <div class="profile-content">
+            <img alt="" src="./images/florian-olivo-unsplash.jpg" />
+            <div class="profile-details">
+              <h2>Scrimton Scrimsby</h2>
+              <h3>scrimsallday3000</h3>
+              <p>I'm the world's most prolific Fortran dev.</p>
+              <button type="button">Edit Profile</button>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Toggle Switch -->
-    <section class="challenge toggle-switch">
-      <h2>Toggle Switch</h2>
-      <p class="hint">A switch button</p>
-
-      <div class="toggle-wrap">
-        <label for="toggle">
-          <input type="checkbox" id="toggle" class="toggle-input" />
-          <div class="toggle-switch"></div>
-        </label>
       </div>
     </section>
 
@@ -307,15 +353,17 @@
       <h2>Playing Cards: Ace of Cards</h2>
       <p class="hint">A game card with its width 2/3 of its height</p>
 
-      <div class="card">
-        <div class="top">
-          <div>A</div>
-          <div>&spades;</div>
-        </div>
-        <div class="center">&spades;</div>
-        <div class="bottom">
-          <div>A</div>
-          <div>&spades;</div>
+      <div class="container">
+        <div class="card">
+          <div class="top">
+            <div>A</div>
+            <div>&spades;</div>
+          </div>
+          <div class="center">&spades;</div>
+          <div class="bottom">
+            <div>A</div>
+            <div>&spades;</div>
+          </div>
         </div>
       </div>
     </section>
@@ -325,36 +373,28 @@
       <h2>Playing Cards: Four of Hearts</h2>
       <p class="hint">A game card with its width 2/3 of its height</p>
 
-      <div class="card">
-        <div class="left">
-          <div>4</div>
-          <div>&hearts;</div>
+      <div class="container">
+        <div class="card">
+          <div class="left">
+            <div>4</div>
+            <div>&hearts;</div>
+          </div>
+          <div class="middle">
+            <div>&hearts;</div>
+            <div>&hearts;</div>
+            <div>&hearts;</div>
+            <div>&hearts;</div>
+          </div>
+          <div class="right">
+            <div>4</div>
+            <div>&hearts;</div>
+          </div>
         </div>
-        <div class="middle">
-          <div>&hearts;</div>
-          <div>&hearts;</div>
-          <div>&hearts;</div>
-          <div>&hearts;</div>
-        </div>
-        <div class="right">
-          <div>4</div>
-          <div>&hearts;</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Animated Progress Bar -->
-    <section class="challenge animated-progress-bar">
-      <h2>Animated Progress Bar</h2>
-      <p class="hint">A Progress Bar with 4 stages</p>
-
-      <div class="progress-bar">
-        <div class="prog-status stage-4"></div>
       </div>
     </section>
 
     <!-- Flip Card -->
-    <section class="challenge flip-card">
+    <!-- <section class="challenge flip-card">
       <h2>Flip Card</h2>
       <p class="hint">A Flip Card flipped on hover</p>
 
@@ -369,18 +409,10 @@
           <h2>What is the marquee tag</h2>
         </div>
       </div>
-    </section>
-
-    <!-- Circular Loading Animation -->
-    <section class="challenge circular-loading-animation">
-      <h2>Circular Loading Animation</h2>
-      <p class="hint">circular loading animation</p>
-
-      <div class="loader"></div>
-    </section>
+    </section> -->
 
     <!-- Instagram Stories -->
-    <section class="challenge instagram-stories">
+    <section class="challenge full-row instagram-stories">
       <h2>Instagram Stories</h2>
       <p class="hint">3 states of instagram stories: new, viewed, live</p>
 
@@ -419,7 +451,7 @@
     </section>
 
     <!-- Github Contribution Graph -->
-    <section class="challenge github-contribution-graph">
+    <section class="challenge full-row github-contribution-graph">
       <h2>Github Contribution Graph</h2>
       <p class="hint">
         Colored 1-Year Github Random Contribution Graph, with 4 levels of
