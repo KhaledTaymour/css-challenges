@@ -1,55 +1,43 @@
-.codepen-tile {
-  .card {
-    border-radius: 8px;
-    background-color: var(--bg-card);
-    color: white;
-    font-family: var(--font-main);
-    max-width: 350px;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    transition: all 0.3s;
-
-    p,
-    li {
-      color: var(--username);
-    }
-
-    .card-thumbnail {
-      img {
-        width: 100%;
-        border-radius: 8px;
-      }
-    }
-
-    .card-body {
-      display: flex;
-      gap: 16px;
-
-      .card-avatar > img:first-of-type {
-        width: 100%;
-        max-width: 50px;
-        /* max-width: 100%; */
-        object-fit: cover;
-        border-radius: 8px;
-      }
-    }
-
-    .card-stats {
-      display: none;
-      list-style: none;
-
-      li {
-        background-color: var(--bg-stats);
-        display: inline;
-        padding: 4px;
-        border-radius: 4px;
-      }
-    }
-  }
-
-  .card:hover .card-stats {
-    display: block;
-  }
+.codepen-tile .card {
+  border-radius: 8px;
+  background-color: var(--bg-card);
+  color: white;
+  font-family: var(--font-main);
+  max-width: 350px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: all 0.3s;
+}
+.codepen-tile .card p,
+.codepen-tile .card li {
+  color: var(--username);
+}
+.codepen-tile .card .card-thumbnail img {
+  width: 100%;
+  border-radius: 8px;
+}
+.codepen-tile .card .card-body {
+  display: flex;
+  gap: 16px;
+}
+.codepen-tile .card .card-body .card-avatar > img:first-of-type {
+  width: 100%;
+  max-width: 50px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.codepen-tile .card .card-stats {
+  display: none;
+  list-style: none;
+}
+.codepen-tile .card .card-stats li {
+  background-color: var(--bg-stats);
+  display: inline;
+  padding: 4px;
+  border-radius: 4px;
+}
+.codepen-tile .card:hover .card-stats {
+  display: block;
 }

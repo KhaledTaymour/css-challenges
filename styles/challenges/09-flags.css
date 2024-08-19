@@ -1,171 +1,141 @@
-.flag-france {
-  .flag-container {
-    height: var(--flag-height);
-    width: calc(var(--flag-height) * 3 / 2);
-    margin: 8px;
-    border: 0.5px solid grey;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-    .blue {
-      background-color: var(--france-blue);
-    }
-    .white {
-      background-color: var(--france-white);
-    }
-    .red {
-      background-color: var(--france-red);
-    }
-  }
+.flag-france .flag-container {
+  height: var(--flag-height);
+  width: calc(var(--flag-height) * 3 / 2);
+  margin: 8px;
+  border: 0.5px solid grey;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
-
-.flag-germany {
-  .flag-container {
-    height: var(--flag-height);
-    width: calc(var(--flag-height) * 5 / 3);
-    margin: 8px;
-    border: 0.5px solid grey;
-    display: grid;
-
-    .black {
-      background-color: var(--germany-black);
-    }
-    .red {
-      background-color: var(--germany-red);
-    }
-    .yellow {
-      background-color: var(--germany-yellow);
-    }
-  }
+.flag-france .flag-container .blue {
+  background-color: var(--france-blue);
 }
-
-.flag-madagascar {
-  .flag-container {
-    height: var(--flag-height);
-    width: calc(var(--flag-height) * 3 / 2);
-    margin: 8px;
-    border: 0.5px solid grey;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-
-    .white {
-      background-color: var(--madagascar-white);
-    }
-    .red {
-      background-color: var(--madagascar-red);
-      height: 50%;
-    }
-    .green {
-      background-color: var(--madagascar-green);
-      height: 50%;
-    }
-  }
+.flag-france .flag-container .white {
+  background-color: var(--france-white);
 }
-
-.flag-switzerland {
-  .flag-container {
-    height: var(--flag-height);
-    width: var(--flag-height);
-    margin: 8px;
-    border: 0.5px solid grey;
-    background-color: var(--switzerland-red);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-
-    .cross {
-      background-color: var(--switzerland-white);
-    }
-
-    .cross-hor {
-      width: calc(100% * 5 / 8);
-      height: calc(100% * 3 / 16);
-    }
-    .cross-ver {
-      width: calc(100% * 3 / 16);
-      height: calc(100% * 5 / 8);
-      position: absolute;
-    }
-  }
+.flag-france .flag-container .red {
+  background-color: var(--france-red);
 }
-
-.flag-japan {
-  .flag-container {
-    height: var(--flag-height);
-    width: calc(var(--flag-height) * 3 / 2);
-    margin: 8px;
-    border: 0.5px solid grey;
-    background-color: var(--japan-white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .circle {
-      background-color: var(--japan-red);
-      height: calc(var(--flag-height) * 3 / 5);
-      width: calc(var(--flag-height) * 3 / 5);
-      border-radius: 50%;
-    }
-  }
+.flag-germany .flag-container {
+  height: var(--flag-height);
+  width: calc(var(--flag-height) * 5 / 3);
+  margin: 8px;
+  border: 0.5px solid grey;
+  display: grid;
 }
-
-.flag-sweden {
-  .flag-container {
-    height: var(--flag-height);
-    width: calc(var(--flag-height) * 8 / 5);
-    margin: 8px;
-    border: 0.5px solid grey;
-    background-color: var(--sweden-blue);
-    position: relative;
-    display: flex;
-    align-items: center;
-
-    .stripe {
-      background-color: var(--sweden-yellow);
-    }
-
-    .stripe-yellow-ver {
-      width: calc(var(--flag-height) * 1 / 5);
-      height: 100%;
-      position: absolute;
-      left: calc(var(--flag-height) * 5 / 16);
-    }
-    .stripe-yellow-hor {
-      width: 100%;
-      height: calc(var(--flag-height) * 1 / 5);
-    }
-  }
+.flag-germany .flag-container .black {
+  background-color: var(--germany-black);
 }
-
-.flag-niger {
-  .flag-container {
-    height: var(--flag-height);
-    width: calc(var(--flag-height) * 7 / 6);
-    margin: 8px;
-    border: 0.5px solid grey;
-    display: grid;
-
-    .orange {
-      background: var(--niger-orange);
-    }
-    .white {
-      background: var(--niger-white);
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      .circle {
-        width: calc(var(--flag-height) * 1 / 3 * 0.85);
-        height: calc(var(--flag-height) * 1 / 3 * 0.85);
-        background-color: var(--niger-orange);
-        position: absolute;
-        border-radius: 50%;
-      }
-    }
-    .green {
-      background: var(--niger-green);
-    }
-  }
+.flag-germany .flag-container .red {
+  background-color: var(--germany-red);
+}
+.flag-germany .flag-container .yellow {
+  background-color: var(--germany-yellow);
+}
+.flag-madagascar .flag-container {
+  height: var(--flag-height);
+  width: calc(var(--flag-height) * 3 / 2);
+  margin: 8px;
+  border: 0.5px solid grey;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.flag-madagascar .flag-container .white {
+  background-color: var(--madagascar-white);
+}
+.flag-madagascar .flag-container .red {
+  background-color: var(--madagascar-red);
+  height: 50%;
+}
+.flag-madagascar .flag-container .green {
+  background-color: var(--madagascar-green);
+  height: 50%;
+}
+.flag-switzerland .flag-container {
+  height: var(--flag-height);
+  width: var(--flag-height);
+  margin: 8px;
+  border: 0.5px solid grey;
+  background-color: var(--switzerland-red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.flag-switzerland .flag-container .cross {
+  background-color: var(--switzerland-white);
+}
+.flag-switzerland .flag-container .cross-hor {
+  width: calc(100% * 5 / 8);
+  height: calc(100% * 3 / 16);
+}
+.flag-switzerland .flag-container .cross-ver {
+  width: calc(100% * 3 / 16);
+  height: calc(100% * 5 / 8);
+  position: absolute;
+}
+.flag-japan .flag-container {
+  height: var(--flag-height);
+  width: calc(var(--flag-height) * 3 / 2);
+  margin: 8px;
+  border: 0.5px solid grey;
+  background-color: var(--japan-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flag-japan .flag-container .circle {
+  background-color: var(--japan-red);
+  height: calc(var(--flag-height) * 3 / 5);
+  width: calc(var(--flag-height) * 3 / 5);
+  border-radius: 50%;
+}
+.flag-sweden .flag-container {
+  height: var(--flag-height);
+  width: calc(var(--flag-height) * 8 / 5);
+  margin: 8px;
+  border: 0.5px solid grey;
+  background-color: var(--sweden-blue);
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.flag-sweden .flag-container .stripe {
+  background-color: var(--sweden-yellow);
+}
+.flag-sweden .flag-container .stripe-yellow-ver {
+  width: calc(var(--flag-height) * 1 / 5);
+  height: 100%;
+  position: absolute;
+  left: calc(var(--flag-height) * 5 / 16);
+}
+.flag-sweden .flag-container .stripe-yellow-hor {
+  width: 100%;
+  height: calc(var(--flag-height) * 1 / 5);
+}
+.flag-niger .flag-container {
+  height: var(--flag-height);
+  width: calc(var(--flag-height) * 7 / 6);
+  margin: 8px;
+  border: 0.5px solid grey;
+  display: grid;
+}
+.flag-niger .flag-container .orange {
+  background: var(--niger-orange);
+}
+.flag-niger .flag-container .white {
+  background: var(--niger-white);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flag-niger .flag-container .white .circle {
+  width: calc(var(--flag-height) * 1 / 3 * 0.85);
+  height: calc(var(--flag-height) * 1 / 3 * 0.85);
+  background-color: var(--niger-orange);
+  position: absolute;
+  border-radius: 50%;
+}
+.flag-niger .flag-container .green {
+  background: var(--niger-green);
 }

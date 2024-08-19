@@ -1,9 +1,7 @@
-.spoiler-revealer {
-  .spoiler {
-    background-color: var(--spoiler-color);
-    transition: background-color 0.3s ease;
-  }
-  .spoiler:hover {
-    background-color: initial;
-  }
+.spoiler-revealer .spoiler {
+  background-color: var(--spoiler-color);
+  transition: background-color 0.3s ease;
+}
+.spoiler-revealer .spoiler:hover {
+  background-color: initial;
 }

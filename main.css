@@ -24,26 +24,24 @@ body {
 
   display: flex;
   flex-direction: column;
-
-  .hint {
-    background-color: lemonchiffon;
-  }
 }
 
+.challenge .hint {
+  background-color: lemonchiffon;
+}
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
 }
-
 .codepen-tile {
   height: 420px;
-  .container {
-    align-items: flex-start;
-  }
 }
 
+.codepen-tile .container {
+  align-items: flex-start;
+}
 @media (min-width: 768px) {
   body {
     grid-template-columns: repeat(2, 1fr);

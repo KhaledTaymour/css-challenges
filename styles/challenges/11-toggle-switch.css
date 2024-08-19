@@ -1,41 +1,34 @@
-.toggle-switch {
-  .toggle-wrap {
-    margin: 8px;
-    display: flex;
-
-    label {
-      width: var(--toggle-width);
-      height: var(--toggle-height);
-      border: var(--toggle-border-width) solid var(--toggle-border);
-      border-radius: var(--toggle-height);
-      background-color: var(--toggle-bg);
-      padding: 0.25em;
-
-      display: flex;
-      align-items: center;
-
-      .toggle-input {
-        display: none;
-      }
-      .toggle-input:checked + .toggle-switch {
-        transform: translateX(
-          calc(
-            var(--toggle-width) - var(--toggle-border-width) -
-              var(--toggle-height)
-          )
-        );
-      }
-
-      .toggle-switch {
-        width: calc(var(--toggle-height) - 6px - 0.25em);
-        height: calc(var(--toggle-height) - 6px - 0.25em);
-        background-color: var(--toggle-switch-bg);
-        border-radius: 50%;
-        transition: all 0.5s;
-      }
-      .toggle-switch:hover {
-        cursor: pointer;
-      }
-    }
-  }
+.toggle-switch .toggle-wrap {
+  margin: 8px;
+  display: flex;
+}
+.toggle-switch .toggle-wrap label {
+  width: var(--toggle-width);
+  height: var(--toggle-height);
+  border: var(--toggle-border-width) solid var(--toggle-border);
+  border-radius: var(--toggle-height);
+  background-color: var(--toggle-bg);
+  padding: 0.25em;
+  display: flex;
+  align-items: center;
+}
+.toggle-switch .toggle-wrap label .toggle-input {
+  display: none;
+}
+.toggle-switch .toggle-wrap label .toggle-input:checked + .toggle-switch {
+  transform: translateX(
+    calc(
+      var(--toggle-width) - var(--toggle-border-width) - var(--toggle-height)
+    )
+  );
+}
+.toggle-switch .toggle-wrap label .toggle-switch {
+  width: calc(var(--toggle-height) - 6px - 0.25em);
+  height: calc(var(--toggle-height) - 6px - 0.25em);
+  background-color: var(--toggle-switch-bg);
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.toggle-switch .toggle-wrap label .toggle-switch:hover {
+  cursor: pointer;
 }

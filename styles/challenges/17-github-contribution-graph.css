@@ -5,39 +5,35 @@
   display: grid;
   gap: 4px;
   grid-template-columns: repeat(52, 1fr);
-
-  li {
-    list-style: none;
-  }
-  .square {
-    width: 10px;
-    height: 10px;
-    background-color: var(--github-level3);
-    cursor: pointer;
-    transition: all 0.4s;
-  }
-
-  .square[data-value="0"] {
-    background-color: var(--github-default-square-bg);
-  }
-  .square[data-value="3"] {
-    background-color: var(--github-level3);
-  }
-  .square[data-value="5"] {
-    background-color: var(--github-level5);
-  }
-  .square[data-value="10"] {
-    background-color: var(--github-level10);
-  }
-
-  .square:hover {
-    border: 1px solid white;
-    border-radius: 2px;
-  }
-
-  [class^="week"] {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-  }
+}
+.graph li {
+  list-style: none;
+}
+.graph .square {
+  width: 10px;
+  height: 10px;
+  background-color: var(--github-level3);
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.graph .square[data-value="0"] {
+  background-color: var(--github-default-square-bg);
+}
+.graph .square[data-value="3"] {
+  background-color: var(--github-level3);
+}
+.graph .square[data-value="5"] {
+  background-color: var(--github-level5);
+}
+.graph .square[data-value="10"] {
+  background-color: var(--github-level10);
+}
+.graph .square:hover {
+  border: 1px solid white;
+  border-radius: 2px;
+}
+.graph [class^="week"] {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }

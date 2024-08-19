@@ -1,22 +1,20 @@
 .word-carousel {
   font-family: var(--font-family);
-
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8px;
-
-    h3::after {
-      content: "";
-      animation: 5s infinite swap;
-      background-color: var(--bg-word);
-      padding: 0.4em;
-      border-radius: 4px;
-      color: white;
-      margin-inline-start: 4px;
-    }
-  }
+}
+.word-carousel .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+.word-carousel .container h3::after {
+  content: "";
+  animation: 5s infinite swap;
+  background-color: var(--bg-word);
+  padding: 0.4em;
+  border-radius: 4px;
+  color: white;
+  margin-inline-start: 4px;
 }
 @keyframes swap {
   0% {

@@ -1,15 +1,12 @@
-.circular-loading-animation {
-  .loader {
-    margin: 8px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 1em solid var(--circular-loading-main);
-    border-top: 1em solid var(--circular-loading-active);
-    animation: circular-loading 5s linear infinite;
-  }
+.circular-loading-animation .loader {
+  margin: 8px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1em solid var(--circular-loading-main);
+  border-top: 1em solid var(--circular-loading-active);
+  animation: circular-loading 5s linear infinite;
 }
-
 @keyframes circular-loading {
   100% {
     transform: rotate(360deg);
