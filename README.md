@@ -8,7 +8,7 @@ It is based on [CSS Scrimba Challange](https://v2.scrimba.com/css-challenges-c02
 
 ![Screenshot](images/screenshot.png)
 
-## Deplyed Page
+## Deployed Page
 
 [Deployed Link](https://khaledtaymour.github.io/css-challenges/)
 
